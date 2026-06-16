@@ -22,11 +22,15 @@ import { formatCurrency, formatDateTime } from '../utils/formatters'
 const categories: (ProductCategory | 'all')[] = [
   'all',
   'ramen',
-  'sushi',
-  'yakitori',
-  'snack',
+  'teppanyaki',
+  'hikiniku',
+  'rice',
   'minuman',
-  'paket',
+  'snack',
+  'addon',
+  'mie',
+  'nasgor',
+  'ropang',
 ]
 
 const paymentOptions: { method: PaymentMethod; icon: typeof Banknote; label: string }[] = [

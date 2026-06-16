@@ -74,7 +74,7 @@ export function Products() {
       </div>
 
       <div className="flex gap-2 overflow-x-auto">
-        {(['all', 'ramen', 'sushi', 'yakitori', 'snack', 'minuman', 'paket'] as const).map(
+        {(['all', 'ramen', 'teppanyaki', 'hikiniku', 'rice', 'minuman', 'snack', 'addon', 'mie', 'nasgor', 'ropang'] as const).map(
           (cat) => (
             <button
               key={cat}
