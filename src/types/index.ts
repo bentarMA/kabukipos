@@ -1,10 +1,14 @@
 export type ProductCategory =
   | 'ramen'
-  | 'sushi'
-  | 'yakitori'
+  | 'teppanyaki'
+  | 'hikiniku'
+  | 'rice'
   | 'minuman'
   | 'snack'
-  | 'paket'
+  | 'addon'
+  | 'mie'
+  | 'nasgor'
+  | 'ropang'
 
 export type PaymentMethod = 'cash' | 'debit' | 'qris' | 'transfer'
 
@@ -113,11 +117,15 @@ export interface DailyRecapRecord extends DailyRecapSummary {
 
 export const CATEGORY_LABELS: Record<ProductCategory, string> = {
   ramen: 'Ramen',
-  sushi: 'Sushi',
-  yakitori: 'Yakitori',
+  teppanyaki: 'Teppanyaki',
+  hikiniku: 'Hikiniku',
+  rice: 'Rice',
   minuman: 'Minuman',
   snack: 'Snack',
-  paket: 'Paket',
+  addon: 'Add On',
+  mie: 'Mie',
+  nasgor: 'Nasi Goreng',
+  ropang: 'Ropang',
 }
 
 export const PAYMENT_LABELS: Record<PaymentMethod, string> = {

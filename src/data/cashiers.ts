@@ -2,16 +2,16 @@ import type { Cashier } from '../types'
 
 export const CASHIERS: Cashier[] = [
   {
-    id: 'cashier-aiko',
-    name: 'Aiko Tanaka',
-    password: '123456',
-    avatar: 'A',
+    id: 'cashier-Bentar',
+    name: 'Bentar',
+    password: '011223',
+    avatar: 'B',
   },
   {
-    id: 'cashier-ren',
-    name: 'Ren Okada',
-    password: '987654',
-    avatar: 'R',
+    id: 'cashier-Aufa',
+    name: 'Aufa',
+    password: '081004',
+    avatar: 'A',
   },
 ]
 
