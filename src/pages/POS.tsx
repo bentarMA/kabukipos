@@ -248,7 +248,7 @@ export function POS() {
       {cartOpen && (
         <div className="fixed inset-0 z-50 lg:hidden">
           <div className="absolute inset-0 bg-black/40" onClick={() => setCartOpen(false)} />
-          <div className="absolute inset-x-0 bottom-0 flex max-h-[85dvh] flex-col rounded-t-2xl bg-white animate-slide-up">
+          <div className="absolute inset-x-0 bottom-0 flex h-[85dvh] flex-col rounded-t-2xl bg-white animate-slide-up">
             <div className="flex items-center justify-between border-b border-gray-100 px-4 py-3">
               <h3 className="font-semibold text-gray-900">Keranjang</h3>
               <button
@@ -258,7 +258,7 @@ export function POS() {
                 <X className="h-5 w-5" />
               </button>
             </div>
-            <div className="flex-1 overflow-hidden">
+            <div className="flex-1 min-h-0 overflow-hidden">
               <CartPanel onCheckout={handleCheckout} />
             </div>
           </div>
