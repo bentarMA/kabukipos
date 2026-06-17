@@ -408,7 +408,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     isAvailable: true,
   },
   {
-    id: 'p43',
+    id: 'p45',
     name: 'Es Batu',
     category: 'minuman',
     price: 3000,
