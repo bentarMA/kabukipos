@@ -6,7 +6,7 @@ export const DEFAULT_SETTINGS: StoreSettings = {
   address: 'Jl. Gajah Mada No. 5, Semarang Tengah',
   phone: '0813-3339-7708',
   taxRate: 0,
-  reportEmail: '',
+  reportEmail: 'bentarjj@gmail.com',
   autoSendRecap: true,
 }
 
